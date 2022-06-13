@@ -1,0 +1,43 @@
+/* just so i know
+*{
+    margin: 0;
+    padding: 0;
+}
+*/
+body {
+  background-color: #d144c557;
+  color: #d144c557;
+  /* Same as above
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  font-weight: normal;
+  */
+  font: normal 16px "Courier New", Courier, monospace;
+  line-height: 1.6em;
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.box-1 {
+  background-color: #022c3f;
+  color: #fff;
+  /*same as above
+  border-right: 5px red solid;
+  border-left: 5px red solid;
+  border-bottom: 5px red solid;
+  border-top: 5px red solid;
+  */
+  border: 5px rgb(214, 208, 208) solid;
+  border-style: dotted;
+  padding: 20px;
+  margin-top: 20px;
+}
+.box-1 h1 {
+  font-family: Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
