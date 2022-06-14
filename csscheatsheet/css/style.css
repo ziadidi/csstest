@@ -16,6 +16,20 @@ body {
   line-height: 1.6em;
   margin: 0;
 }
+a {
+  text-decoration: none;
+  color: #000;
+}
+a:hover {
+  color: rgb(12, 113, 121);
+  font-weight: 900;
+}
+a:active {
+  color: green;
+}
+/*a:visited{
+  color: #000;
+}*/
 .container {
   width: 80%;
   margin: auto;
@@ -35,9 +49,63 @@ body {
   margin-top: 20px;
 }
 .box-1 h1 {
-  font-family: Tahoma;
+  font-family: "Courier New", Courier, monospace;
   font-weight: 800;
   font-style: italic;
   text-decoration: underline;
   text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+.box-2 {
+  border: 3px dotted rgb(109, 17, 185);
+  padding: 20px;
+  margin: 20px 0;
+  color: #fff;
+  background-color: #022c3f;
+  text-decoration: underline;
+}
+.categories {
+  border: 5px rgb(90, 22, 179) solid;
+  padding: 10px;
+  border-radius: 15px;
+}
+.categories h2 {
+  color: #31023357;
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+}
+.categories ul {
+  padding: 0;
+  list-style: none;
+  padding-left: 35px;
+}
+.categories li {
+  padding-bottom: 6px;
+  border-bottom: dotted 3px #333;
+  list-style-image: url("../images/check.png");
+}
+.my-form {
+  color: #0b0614;
+  padding: 20px;
+}
+.my-form .form-group {
+  padding-bottom: 15px;
+}
+.my-form label{
+  display: block;
+}
+.my-form input[type="text"], .my-form textarea{
+  padding: 8px;
+  width: 100%;
+}
+.my-form input[type="email"]{
+  width: 100%;
+  padding: 8px;
+}
+.my-form input[type="submit"]{
+  background-color: rgb(109, 17, 185);
+  color:#fff ;
+  padding: 10px 25px;
+  border: none;
 }
