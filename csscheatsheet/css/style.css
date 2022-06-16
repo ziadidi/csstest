@@ -75,7 +75,7 @@ a:active {
 .box-2 {
   border: 3px dotted rgb(109, 17, 185);
   padding: 20px;
-  margin: 20px 0;
+  margin: 20px 47px;
   color: #fff;
   background-color: #022c3f;
   border-radius: 5%;
@@ -87,6 +87,7 @@ a:active {
   border: 5px rgb(90, 22, 179) solid;
   padding: 10px;
   border-radius: 5%;
+  margin: 20px 47px;
 }
 .categories h2 {
   color: #31023357;
@@ -106,6 +107,7 @@ a:active {
 .my-form {
   color: #0b0614;
   padding: 20px;
+  margin-left: 47px;
 }
 .my-form .form-group {
   padding-bottom: 15px;
@@ -147,4 +149,42 @@ a:active {
   color: #fff;
   padding: 10px;
   box-sizing: border-box;
+}
+.p-box{
+  width: 800px;
+  height: 500px;
+  border: 1px solid #000;
+  margin-top: 30px;
+  position: relative;
+  background-image: url('../images/back.jpg');
+  background-position: 100px 200px;
+  /*background-repeat: no-repeat;*/
+  background-position: center center;
+}
+.p-box h1{
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+.p-box h2{
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+}
+.fix-me{
+  position: fixed;
+  top: 500px;
+}
+/*
+.my-list li:first-child{
+background: rgba(137, 43, 226, 0.521);
+}
+.my-list li:last-child{
+  background: #2f95b4a1;
+} */
+.my-list li:nth-child(even){
+background: #7ee22c88;
+}
+.my-list li:nth-child(odd){
+  background: rgba(137, 43, 226, 0.521);
 }
